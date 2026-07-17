@@ -9,7 +9,6 @@ export const paraQuem: ParaQuemItem[] = [
   { text: "Você sempre quis aprender a desenhar, mas a vida — filhos, casa, trabalho — nunca deixou sobrar tempo pra isso" },
   { text: "Os filhos cresceram, a casa ficou mais silenciosa, e sobrou um vazio que você ainda não sabe bem como preencher" },
   { text: "Você quer um hobby só seu — não mais uma tarefa, não mais uma obrigação pra cumprir por alguém" },
-  { text: "Uma parte de você acha que já passou da idade de começar algo novo… e uma parte maior quer provar que não" },
 ];
 
 export interface Modulo {
@@ -19,9 +18,9 @@ export interface Modulo {
 }
 
 export const modulos: Modulo[] = [
-  { num: "01", title: "Técnicas fundamentais de mandala", desc: "Do primeiro traço à composição completa, no seu ritmo — sem pressa, sem comparação." },
-  { num: "02", title: "Geometria sagrada aplicada", desc: "Estruturas milenares que dão profundidade e propósito a cada desenho." },
-  { num: "03", title: "Colorização terapêutica", desc: "As cores como forma de escuta interior e de expressão de quem você é hoje." },
+  { num: "01", title: "Universo das mandalas", desc: "A origem, os significados e a geometria sagrada por trás de cada desenho — o ponto de partida da sua jornada." },
+  { num: "02", title: "Como criar mandalas", desc: "Do primeiro traço à composição completa, no seu ritmo — sem pressa, sem comparação." },
+  { num: "03", title: "Como ter renda com as mandalas", desc: "Transforme o que você aprendeu em uma fonte de renda, vendendo suas criações do seu próprio jeito." },
 ];
 
 export interface Beneficio {

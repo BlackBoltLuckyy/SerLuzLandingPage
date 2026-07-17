@@ -1,3 +1,4 @@
+
 /**
  * Curso SerLuz — Landing page
  *
@@ -21,7 +22,6 @@ import Solucao from "./components/Solucao";
 import Modulos from "./components/Modulos";
 import Beneficios from "./components/Beneficios";
 import SobreProfessora from "./components/SobreProfessora";
-import Depoimentos from "./components/Depoimentos";
 import OfertaInscricao from "./components/OfertaInscricao";
 import Objecoes from "./components/Objecoes";
 import Garantia from "./components/Garantia";
@@ -41,7 +41,6 @@ export default function CursoSerLuz() {
       <Modulos />
       <Beneficios />
       <SobreProfessora />
-      <Depoimentos />
       <OfertaInscricao />
       <Objecoes />
       <Garantia />
