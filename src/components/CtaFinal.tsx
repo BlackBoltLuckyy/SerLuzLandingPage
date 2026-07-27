@@ -15,6 +15,10 @@ export default function CtaFinal() {
         </h2>
         <a
           href="#inscricao"
+          onClick={(e) => {
+            e.preventDefault();
+            document.getElementById("btn-inscricao")?.scrollIntoView({ behavior: "smooth", block: "center" });
+          }}
           className="inline-block rounded-full bg-[#C6A15B] px-[46px] py-[19px] text-[16px] font-bold tracking-[0.02em] text-[#3A1420] shadow-[0_14px_40px_-12px_rgba(198,161,91,0.7)] transition-transform hover:-translate-y-0.5"
         >
           Quero me inscrever

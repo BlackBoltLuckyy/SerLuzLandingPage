@@ -41,6 +41,7 @@ export default function OfertaInscricao() {
           </div>
 
           <a
+            id="btn-inscricao"
             href={HOTMART_CHECKOUT_URL}
             target="_blank"
             rel="noopener noreferrer"
