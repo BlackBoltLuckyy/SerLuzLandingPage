@@ -6,9 +6,9 @@ export interface ParaQuemItem {
 }
 
 export const paraQuem: ParaQuemItem[] = [
-  { text: "Você sempre quis aprender a desenhar, mas a vida — filhos, casa, trabalho — nunca deixou sobrar tempo pra isso" },
-  { text: "Os filhos cresceram, a casa ficou mais silenciosa, e sobrou um vazio que você ainda não sabe bem como preencher" },
-  { text: "Você quer um hobby só seu — não mais uma tarefa, não mais uma obrigação pra cumprir por alguém" },
+  { text: "Você sempre quis desenvolver habilidade para a arte, mas a rotina deixou isso para trás..." },
+  { text: "Sempre pensou em um dia ter uma renda extra... fazendo o que mais gosta!" },
+  { text: "Você quer um hobby só seu, não mais uma tarefa, não mais uma obrigação pra cumprir." },
 ];
 
 export interface Modulo {
@@ -18,8 +18,8 @@ export interface Modulo {
 }
 
 export const modulos: Modulo[] = [
-  { num: "01", title: "Universo das mandalas", desc: "A origem, os significados e a geometria sagrada por trás de cada desenho — o ponto de partida da sua jornada." },
-  { num: "02", title: "Como criar mandalas", desc: "Do primeiro traço à composição completa, no seu ritmo — sem pressa, sem comparação." },
+  { num: "01", title: "Universo das mandalas", desc: "A origem, os significados e a geometria sagrada, além dos benefícios da mandala" },
+  { num: "02", title: "Como criar mandalas", desc: "Do primeiro ponto à composição completa, no seu ritmo, sem pressa, sem comparação." },
   { num: "03", title: "Como ter renda com as mandalas", desc: "Transforme o que você aprendeu em uma fonte de renda, vendendo suas criações do seu próprio jeito." },
 ];
 
@@ -29,11 +29,14 @@ export interface Beneficio {
 }
 
 export const beneficios: Beneficio[] = [
-  { label: "Aulas gravadas no seu ritmo", desc: 'você assiste quando puder, sem culpa por "atrasar"' },
-  { label: "Técnicas de geometria sagrada", desc: "pra criar mandalas com propósito, não só decoração" },
-  { label: "Colorização terapêutica", desc: "cores como forma de escuta interior" },
-  { label: "Acesso vitalício", desc: "volte sempre que precisar de um respiro" },
-  { label: "Comunidade de alunas", desc: "pra se sentir acompanhada, não sozinha nessa jornada" },
+  { label: "Aulas gravadas no seu ritmo", desc: "você assiste quando puder!" },
+  { label: "Técnicas de pontilhismo e pincel", desc: "para iniciantes." },
+  { label: "Preparativos de materiais", desc: "Materiais utiliazados, mdf, preparação de fundo, marcações na mandala..." },
+  { label: "Criando Mandalas", desc: "Diversos modelos de mandalas" },
+  { label: "Vendas e Precificação", desc: "Aprenda a calcular o valor da sua mandala e como vende-la" },
+  { label: "Acesso vitalício", desc: "Volte sempre que precisar de um respiro" },
+  { label: "Módulo com Aulas bônus", desc: "conteúdo extra pra ir ainda mais fundo na sua jornada" },
+  { label: "Apostila + ebooks", desc: "material de apoio pra realizar o curso" },
 ];
 
 export interface Depoimento {
@@ -54,11 +57,11 @@ export interface OfertaItem {
   value: string;
 }
 
-// PLACEHOLDER: valores fictícios — ajustar para os valores reais da oferta antes de publicar.
 export const oferta: OfertaItem[] = [
-  { item: "Curso SerLuz — Módulos completos", value: "R$ 497" },
-  { item: "Bônus 1: E-book Geometria Sagrada Ilustrada", value: "R$ 97" },
-  { item: "Bônus 2: Paleta de cores terapêuticas guiada", value: "R$ 67" },
+  { item: "Curso Mandalas para a Alma — Módulos completos +20 aulas", value: "R$ 497" },
+  { item: "Bônus 1: Três produtos para comercializar na técnica de pontilhismo", value: "R$ 97" },
+  { item: "Bônus 2: Ebook Domine as Cores na Arte", value: "R$ 67" },
+  { item: "Bônus 3: Apostila de Exercícios", value: "R$ 57" },
 ];
 
 export interface Objecao {
@@ -79,22 +82,21 @@ export interface Faq {
 }
 
 export const faqs: Faq[] = [
-  { q: "Preciso ter experiência prévia com desenho?", a: "Não. As técnicas são ensinadas do zero, passo a passo, pensadas pra quem nunca desenhou." },
-  { q: "Existe alguma idade limite pra fazer o curso?", a: "Nenhuma. O SerLuz foi criado pensando em mulheres acima dos 40 — sua experiência de vida é parte do que você traz pro desenho, não um limite." },
-  { q: "Quanto tempo preciso dedicar por semana?", a: "Você define seu ritmo. As aulas são curtas e ficam disponíveis pra sempre." },
-  { q: "Por quanto tempo tenho acesso ao curso?", a: "O acesso é vitalício — você pode voltar sempre que quiser, no seu tempo." },
-  { q: "E se eu não gostar do curso?", a: "Você tem 7 dias de garantia total, com devolução do valor." },
+  { q: "Preciso ter experiência prévia com arte?", a: "Não. As técnicas são ensinadas do zero, passo a passo, pensadas pra quem nunca teve essa experiência." },
+  { q: "Quanto tempo preciso dedicar por semana?", a: "Você define seu ritmo." },
+  { q: "Por quanto tempo tenho acesso ao curso?", a: "O acesso é vitalício, você pode voltar sempre que quiser, no seu tempo." },
   { q: "Como funciona o acesso após a inscrição?", a: "Assim que a inscrição é confirmada, você recebe o acesso à plataforma na hora." },
-  { q: "Quais formas de pagamento?", a: "Cartão, Pix ou boleto, com parcelamento facilitado." },
+  { q: "Quais formas de pagamento?", a: "Pix e cartão com parcelamento facilitado." },
 ];
 
 export interface SocialLink {
   name: string;
   icon: string;
+  url: string;
 }
 
 export const social: SocialLink[] = [
-  { name: "Instagram", icon: "IG" },
-  { name: "Facebook", icon: "f" },
-  { name: "YouTube", icon: "▶" },
+  { name: "Instagram", icon: "IG", url: "https://www.instagram.com/serluz.mandalas?igsh=MXY2YWNyMjR2b3Q0Mw==" },
+  { name: "Facebook", icon: "f", url: "#" },
+  { name: "YouTube", icon: "▶", url: "#" },
 ];

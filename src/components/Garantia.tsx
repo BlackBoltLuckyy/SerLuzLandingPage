@@ -3,8 +3,8 @@ import { serif } from "./Mandala";
 export default function Garantia() {
   return (
     <section className="px-6 pb-[84px] pt-5">
-      <div className="mx-auto flex max-w-[640px] flex-wrap items-center justify-center gap-7 rounded-[22px] bg-[#5C1A2E] px-[38px] py-11 text-center text-[#FAF6F0]">
-        <div className="flex h-[92px] w-[92px] flex-none flex-col items-center justify-center rounded-full border-2 border-[#C6A15B] text-[#C6A15B]">
+      <div className="mx-auto flex max-w-[640px] flex-wrap items-center justify-center gap-7 rounded-[22px] bg-[#829B71] px-[38px] py-11 text-center text-[#FAF6F0]">
+        <div className="flex h-[92px] w-[92px] flex-none flex-col items-center justify-center rounded-full border-2 border-[#9C4258] text-[#9C4258]">
           <div style={serif} className="text-[30px] font-bold leading-none">
             7
           </div>

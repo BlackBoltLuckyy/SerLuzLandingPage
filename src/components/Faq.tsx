@@ -9,10 +9,10 @@ export default function Faq() {
     <section className="bg-[#F1E8DB] px-6 py-[92px]">
       <div className="mx-auto max-w-[720px]">
         <div className="mb-11 text-center">
-          <div className="mb-[14px] text-[12px] font-semibold uppercase tracking-[0.34em] text-[#A9863F]">
+          <div className="mb-[14px] text-[12px] font-semibold uppercase tracking-[0.34em] text-[#481925]">
             Perguntas frequentes
           </div>
-          <h2 style={serif} className="m-0 text-[clamp(26px,3.6vw,38px)] font-semibold text-[#5C1A2E]">
+          <h2 style={serif} className="m-0 text-[clamp(26px,3.6vw,38px)] font-semibold text-[#829B71]">
             Ainda com dúvidas?
           </h2>
         </div>
@@ -20,13 +20,13 @@ export default function Faq() {
           {faqs.map((f, i) => {
             const open = openFaq === i;
             return (
-              <div key={i} className="overflow-hidden rounded-[14px] border border-[#5C1A2E]/10 bg-[#FAF6F0]">
+              <div key={i} className="overflow-hidden rounded-[14px] border border-[#829B71]/10 bg-[#FAF6F0]">
                 <button
                   onClick={() => setOpenFaq(open ? -1 : i)}
-                  className="flex w-full cursor-pointer items-center justify-between gap-4 border-none bg-transparent px-[22px] py-5 text-left text-[16px] font-semibold text-[#5C1A2E]"
+                  className="flex w-full cursor-pointer items-center justify-between gap-4 border-none bg-transparent px-[22px] py-5 text-left text-[16px] font-semibold text-[#829B71]"
                 >
                   <span>{f.q}</span>
-                  <span className={`flex-none text-[22px] leading-none text-[#C6A15B] transition-transform ${open ? "rotate-45" : ""}`}>
+                  <span className={`flex-none text-[22px] leading-none text-[#A76D5E] transition-transform ${open ? "rotate-45" : ""}`}>
                     +
                   </span>
                 </button>

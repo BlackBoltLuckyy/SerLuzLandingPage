@@ -23,7 +23,6 @@ import Modulos from "./components/Modulos";
 import Beneficios from "./components/Beneficios";
 import SobreProfessora from "./components/SobreProfessora";
 import OfertaInscricao from "./components/OfertaInscricao";
-import Objecoes from "./components/Objecoes";
 import Garantia from "./components/Garantia";
 import Faq from "./components/Faq";
 import CtaFinal from "./components/CtaFinal";
@@ -32,7 +31,7 @@ import Footer from "./components/Footer";
 
 export default function CursoSerLuz() {
   return (
-    <div className="w-full overflow-hidden bg-[#FAF6F0] font-['Mulish',system-ui,sans-serif] text-[#3A2A2E] antialiased">
+    <div className="w-full overflow-hidden bg-[#FAF0DC] font-['Mulish',system-ui,sans-serif] text-[#3A2A2E] antialiased">
       <MandalaStyle />
       <Hero />
       <AberturaDor />
@@ -42,7 +41,6 @@ export default function CursoSerLuz() {
       <Beneficios />
       <SobreProfessora />
       <OfertaInscricao />
-      <Objecoes />
       <Garantia />
       <Faq />
       <CtaFinal />
