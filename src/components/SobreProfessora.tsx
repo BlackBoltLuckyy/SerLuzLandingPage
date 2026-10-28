@@ -7,7 +7,7 @@ export default function SobreProfessora() {
       <div className="relative mx-auto flex max-w-[860px] flex-wrap items-center justify-center gap-12">
         <div className="flex-none">
           <img
-            src="/professora-cláudia.jpg"
+            src="/professora-claudia.jpg"
             alt="Cláudia Alves"
             className="h-[290px] w-[230px] rounded-2xl border-[1.5px] border-[#A76D5E]/40 object-cover"
           />
