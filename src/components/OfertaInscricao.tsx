@@ -2,7 +2,7 @@ import { oferta } from "../data";
 import Mandala, { serif } from "./Mandala";
 
 // PLACEHOLDER: trocar pelo link real de checkout do Hotmart antes de publicar
-const HOTMART_CHECKOUT_URL = "https://pay.hotmart.com/SEU-CODIGO-AQUI";
+const HOTMART_CHECKOUT_URL = "https://pay.hotmart.com/P107304778F";
 
 export default function OfertaInscricao() {
   return (
